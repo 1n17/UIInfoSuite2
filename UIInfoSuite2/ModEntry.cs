@@ -36,6 +36,8 @@ namespace UIInfoSuite
             helper.Events.GameLoop.Saved += OnSaved;
 
             helper.Events.Display.Rendering += IconHandler.Handler.Reset;
+
+            helper.Events.GameLoop.UpdateTicked += ToolCharging.OnUpdateTicked;
         }
         #endregion
 

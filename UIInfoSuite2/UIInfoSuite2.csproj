@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalFeatures\ToolCharging.cs" />
     <Compile Include="Infrastucture\Extensions\CollectionExtensions.cs" />
     <Compile Include="Infrastucture\Extensions\ObjectExtensions.cs" />
     <Compile Include="Infrastucture\LanguageKeys.cs" />
@@ -125,7 +126,7 @@
     </Content>
   </ItemGroup>
   <PropertyGroup>
-	<GamePath>D:\Games\Stardew Valley</GamePath>
+    <GamePath>D:\Games\Stardew Valley</GamePath>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
