@@ -91,6 +91,7 @@
     <Compile Include="UIElements\LuckOfDay.cs" />
     <Compile Include="UIElements\ShopHarvestPrices.cs" />
     <Compile Include="UIElements\ShowAccurateHearts.cs" />
+    <Compile Include="UIElements\ShowSeasonal.cs" />
     <Compile Include="UIElements\ShowBirthdayIcon.cs" />
     <Compile Include="UIElements\ShowCalendarAndBillboardOnGameMenuButton.cs" />
     <Compile Include="UIElements\ShowCropAndBarrelTime.cs" />
