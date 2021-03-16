@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalFeatures\RunningLate24.cs" />
     <Compile Include="AdditionalFeatures\ToolCharging.cs" />
     <Compile Include="Infrastucture\Extensions\CollectionExtensions.cs" />
     <Compile Include="Infrastucture\Extensions\ObjectExtensions.cs" />

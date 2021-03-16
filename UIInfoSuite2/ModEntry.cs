@@ -38,6 +38,8 @@ namespace UIInfoSuite
             helper.Events.Display.Rendering += IconHandler.Handler.Reset;
 
             helper.Events.GameLoop.UpdateTicked += ToolCharging.OnUpdateTicked;
+
+            helper.Events.Display.RenderedHud += RunningLate24.Display_RenderedHud;
         }
         #endregion
 
